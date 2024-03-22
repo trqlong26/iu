@@ -4,6 +4,9 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
+import NavMobile from "./NavMobile";
+import Navbar from "./Navbar";
+import MenuBtn from "./MenuBtn";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -25,24 +28,28 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed z-50 w-full ${
-        active ? "bg-[#030315 py-6]" : "bg-transparent py-8"
+      className={`fixed z-50 w-full transition-all ${
+        active
+          ? "bg-[#030315 py-6] transition-all"
+          : "bg-transparent py-8 transition-all"
       }`}
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto flex flex-col xl:flex-row items-center justify-between">
         {/* logo */}
         <Link
           href={"#"}
           className="relative flex w-[226px] h-[37.64px] transition-all mb-4 xl:mb-0"
         >
-          <Image fill />
+          <Image fill className="object-contain" />
         </Link>
-        {/* nav */}
-        <nav></nav>
+        {/* navbar */}
+        <Navbar containerStyles="hidden xl:flex items-center gap-x-8" />
         {/* mobile nav */}
-        <nav></nav>
+        <NavMobile />
         {/* menu btn */}
-        <div></div>
+        <div className="absolute right-7 top-9 z-10 xl:hidden">
+          <MenuBtn />
+        </div>
         {/* socials */}
         <div></div>
       </div>
