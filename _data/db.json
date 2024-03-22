@@ -1,0 +1,345 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "date": {
+        "day": "2",
+        "month": "March",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "address": "KSPO Dome"
+      }
+    },
+    {
+      "id": 2,
+      "date": {
+        "day": "24",
+        "month": "March",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Yokohama",
+        "country": "Japan",
+        "address": "Yokohama Arena"
+      }
+    },
+    {
+      "id": 3,
+      "date": {
+        "day": "6",
+        "month": "April",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Taipei",
+        "country": "Taiwan",
+        "address": "Taipei Arena"
+      }
+    },
+    {
+      "id": 4,
+      "date": {
+        "day": "21",
+        "month": "April",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Singapore",
+        "country": "Singapore",
+        "address": "Singapore Indoor Stadium"
+      }
+    },
+    {
+      "id": 5,
+      "date": {
+        "day": "28",
+        "month": "April",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Banten",
+        "country": "Indonesia",
+        "address": "ICE BSD Hall 5-6"
+      }
+    },
+    {
+      "id": 6,
+      "date": {
+        "day": "26",
+        "month": "May",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Hong Kong",
+        "country": "China",
+        "address": "AsiaWorld-Arena"
+      }
+    },
+    {
+      "id": 7,
+      "date": {
+        "day": "1",
+        "month": "June",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Bocaue",
+        "country": "Philippines",
+        "address": "Philippine Arena"
+      }
+    },
+    {
+      "id": 8,
+      "date": {
+        "day": "9",
+        "month": "June",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "address": "Axiata Arena"
+      }
+    },
+    {
+      "id": 9,
+      "date": {
+        "day": "21",
+        "month": "June",
+        "year": "2024"
+      },
+      "location": {
+        "city": "London",
+        "country": "England",
+        "address": "OVO Arena Wembley"
+      }
+    },
+    {
+      "id": 10,
+      "date": {
+        "day": "23",
+        "month": "June",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "address": "Uber Arena"
+      }
+    },
+    {
+      "id": 11,
+      "date": {
+        "day": "30",
+        "month": "June",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Pak Kret",
+        "country": "Thailand",
+        "address": "Impact Challenger Hall 1"
+      },
+      "priceRange": "84.63$ - 201.28$"
+    },
+    {
+      "id": 12,
+      "date": {
+        "day": "22",
+        "month": "July",
+        "year": "2024"
+      },
+      "location": {
+        "city": "Washington, D.C.",
+        "country": "United States",
+        "address": "Capital One Arena"
+      }
+    }
+  ],
+  "albums": [
+    {
+      "id": "1",
+      "img": "/assets/albums/album1.jpg",
+      "name": "Modern Times",
+      "tracks": [
+        {
+          "name": "Love of B"
+        },
+        {
+          "name": "Everybody Has Secrets"
+        },
+        {
+          "name": "Between the Lips"
+        },
+        {
+          "name": "The Red Shoes"
+        },
+        {
+          "name": "Modern Times"
+        },
+        {
+          "name": "Bad Day"
+        },
+        {
+          "name": "Obliviate"
+        },
+        {
+          "name": "Walk with Me, Girl"
+        },
+
+        {
+          "name": "Havana"
+        },
+
+        {
+          "name": "A Gloomy Clock"
+        },
+
+        {
+          "name": "Daydream"
+        },
+
+        {
+          "name": "Wait"
+        },
+
+        {
+          "name": "Voice Mail"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "img": "/assets/albums/album2.jpg",
+      "name": "Chat-shire",
+      "tracks": [
+        {
+          "name": "Shoes"
+        },
+        {
+          "name": "Zezé"
+        },
+        {
+          "name": "Twenty-Three"
+        },
+        {
+          "name": "The Shower"
+        },
+        {
+          "name": "Red Queen"
+        },
+        {
+          "name": "Knees"
+        },
+        {
+          "name": "Glasses"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "img": "/assets/albums/album3.jpg",
+      "name": "Palette",
+      "tracks": [
+        {
+          "name": "dlwlrma"
+        },
+        {
+          "name": "Palette"
+        },
+        {
+          "name": "Ending Scene"
+        },
+        {
+          "name": "Can't Love You Anymore"
+        },
+        {
+          "name": "Jam Jam"
+        },
+        {
+          "name": "Blackout"
+        },
+        {
+          "name": "Full Stop"
+        },
+        {
+          "name": "Through The Night"
+        },
+
+        {
+          "name": "Love Alone"
+        },
+
+        {
+          "name": "Dear Name"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "img": "/assets/albums/album4.jpg",
+      "name": "Love Poem",
+      "tracks": [
+        {
+          "name": "Unlucky"
+        },
+        {
+          "name": "The Visitor"
+        },
+        {
+          "name": "Blueming"
+        },
+        {
+          "name": "Above The Time"
+        },
+        {
+          "name": "Lullaby"
+        },
+        {
+          "name": "Love Poem"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "img": "/assets/albums/album5.jpg",
+      "name": "LILAC",
+      "tracks": [
+        {
+          "name": "LILAC"
+        },
+        {
+          "name": "Flu"
+        },
+        {
+          "name": "Coin"
+        },
+        {
+          "name": "Hi spring Bye"
+        },
+        {
+          "name": "Celebrity"
+        },
+        {
+          "name": "Troll"
+        },
+        {
+          "name": "Empty Cup"
+        },
+        {
+          "name": "My sea"
+        },
+
+        {
+          "name": "Ah puh"
+        },
+
+        {
+          "name": "Epilogue"
+        }
+      ]
+    }
+  ]
+}
