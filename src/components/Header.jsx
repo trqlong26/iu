@@ -7,6 +7,7 @@ import { fadeIn } from "../../variants";
 import NavMobile from "./NavMobile";
 import Navbar from "./Navbar";
 import MenuBtn from "./MenuBtn";
+import Socials from "./Socials";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -51,7 +52,10 @@ const Header = () => {
           <MenuBtn />
         </div>
         {/* socials */}
-        <div></div>
+        <Socials
+          containerStyles="flex text-[24px] gap-x-4"
+          iconStyles="hover:text-accent transtion-all"
+        />
       </div>
     </header>
   );
