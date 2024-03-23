@@ -23,7 +23,7 @@ const Player = () => {
           {/* text */}
           <div className="loading-none">
             <div className="text-lg font-medium">IU</div>
-            <div className="text-sm font-light">The winning</div>
+            <div className="text-sm font-light">Love wins all</div>
           </div>
         </div>
         {/* player */}
@@ -34,7 +34,7 @@ const Player = () => {
             color="#fff"
             volume={40}
             volumePlacement="top"
-            src=""
+            src="/assets/아이유 (IU) 'Love wins all' Official Audio.mp3"
             style={{
               background: "transparent",
               boxShadow: "none",
