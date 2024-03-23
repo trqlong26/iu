@@ -41,7 +41,7 @@ const Header = () => {
           href={"#"}
           className="relative flex w-[226px] h-[37.64px] transition-all mb-4 xl:mb-0"
         >
-          <Image fill className="object-contain" />
+          <h1 className="hidden lg:block text-2xl font-bold">tqlEnt.</h1>
         </Link>
         {/* navbar */}
         <Navbar containerStyles="hidden xl:flex items-center gap-x-8" />
@@ -54,7 +54,7 @@ const Header = () => {
         {/* socials */}
         <Socials
           containerStyles="flex text-[24px] gap-x-4"
-          iconStyles="hover:text-accent transtion-all"
+          iconStyles="hover:text-secondary/20 transtion-all"
         />
       </div>
     </header>

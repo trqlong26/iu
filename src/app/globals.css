@@ -40,7 +40,7 @@ body {
 
 /* main player */
 .rap-progress {
-  @apply !bg-[#6519c8];
+  @apply !bg-[#CBCCC5];
 }
 
 .rap-pin {
@@ -78,7 +78,7 @@ body {
 }
 
 .rap-container .rap-slider {
-  @apply !bg-[#33335b] !h-[2px];
+  @apply !bg-secondary/10 !h-[2px];
 }
 
 .rap-container .rap-controls span {
@@ -94,7 +94,7 @@ body {
 }
 
 .active {
-  @apply border-b-2 border-accent;
+  @apply border-b-2 border-secondary;
 }
 
 /* album slider */

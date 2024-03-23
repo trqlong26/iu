@@ -9,7 +9,7 @@ const Albums = () => {
   return (
     <section id="discography">
       <div className="container mx-auto">
-        <SectionHeader pretitle="Discography" title="Popular Albums" />
+        <SectionHeader title="Albums" />
         {/* album slider */}
         <motion.div
           variants={fadeIn("up", 0.4)}

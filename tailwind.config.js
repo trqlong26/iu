@@ -27,12 +27,11 @@ module.exports = {
         montserrat: [`var(--font-montserrat)`, "sans-serif"],
       },
       colors: {
-        primary: "#06062a",
-        secondary: "#151538",
-        tertiary: "#242445",
+        primary: "#1A1C20",
+        secondary: "#CBCCC5",
         accent: {
-          DEFAULT: "#7f1cfc",
-          hover: "#6519c6",
+          DEFAULT: "#1A1C20",
+          hover: "#CBCCC5",
         },
       },
     },

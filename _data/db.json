@@ -161,7 +161,7 @@
   "albums": [
     {
       "id": "1",
-      "img": "/assets/albums/album1.jpg",
+      "img": "/assets/albums/cover/album1.jpg",
       "name": "Modern Times",
       "tracks": [
         {
@@ -212,7 +212,7 @@
     },
     {
       "id": "2",
-      "img": "/assets/albums/album2.jpg",
+      "img": "/assets/albums/cover/album2.jpg",
       "name": "Chat-shire",
       "tracks": [
         {
@@ -240,7 +240,7 @@
     },
     {
       "id": "3",
-      "img": "/assets/albums/album3.jpg",
+      "img": "/assets/albums/cover/album3.jpg",
       "name": "Palette",
       "tracks": [
         {
@@ -279,7 +279,7 @@
     },
     {
       "id": "4",
-      "img": "/assets/albums/album4.jpg",
+      "img": "/assets/albums/cover/album4.jpg",
       "name": "Love Poem",
       "tracks": [
         {
@@ -304,7 +304,7 @@
     },
     {
       "id": "5",
-      "img": "/assets/albums/album5.jpg",
+      "img": "/assets/albums/cover/album5.jpg",
       "name": "LILAC",
       "tracks": [
         {

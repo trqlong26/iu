@@ -11,14 +11,14 @@ const Player = () => {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: false, amount: 0.1 }}
-      className="bg-gradient-to-r from-tertiary/70 to-primary/10 backdrop-blur-[15px] h-[112px] flex items-center relative z-40"
+      className="bg-gradient-to-r from-secondary/70 to-primary/10 backdrop-blur-[15px] h-[112px] flex items-center relative z-40"
     >
       <div className="container mx-auto flex flex-col justify-between items-center xl:flex-row">
         {/* text & avatar img */}
         <div className="hidden w-[300px] xl:flex items-center gap-x-4">
           {/* avatar img */}
           <div className="relative w-16 h-16">
-            <Image fill alt="" priority />
+            <Image src={"/assets/player1.jpg"} fill alt="" priority />
           </div>
           {/* text */}
           <div className="loading-none">

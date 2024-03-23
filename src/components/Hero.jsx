@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import {
-    MouseParallaxChild,
-    MouseParallaxContainer,
+  MouseParallaxChild,
+  MouseParallaxContainer,
 } from "react-parallax-mouse";
 import { TypeAnimation } from "react-type-animation";
 import { fadeIn } from "../../variants";
@@ -44,24 +44,14 @@ const Hero = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.3 }}
-                className="w-[300px] h-[101.37px] xl:w-[725px] xl:h-[244.97px]"
               >
-                <Image className="object-contain" />
-              </motion.div>
-            </MouseParallaxChild>
-            <MouseParallaxChild
-              factorX={0.9}
-              factorY={0.9}
-              className="absolute xl:left-6 z-30"
-            >
-              <motion.div
-                variants={fadeIn("up", 0.7)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: false, amount: 0.3 }}
-                className="w-[300px] h-[101.37px] xl:w-[625px] xl:h-[244.97px]"
-              >
-                <Image className="object-contain" />
+                <Image
+                  src={"/assets/logo.png"}
+                  width={200}
+                  height={200}
+                  quality={100}
+                  className="object-contain"
+                />
               </motion.div>
             </MouseParallaxChild>
           </MouseParallaxContainer>

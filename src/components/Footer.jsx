@@ -20,7 +20,7 @@ const Footer = () => {
         >
           <Link href={"#"}>
             <h2 className="text-[24px] lg:text-[38px] font-semibold leading-tight">
-              tql@gmail.com
+              longqtr2608@gmail.com
             </h2>
           </Link>
         </motion.div>
@@ -54,14 +54,7 @@ const Footer = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.1 }}
-        >
-          <Link
-            href="#"
-            className="relative w-[250px] h-[50px] flex transition-all"
-          >
-            {/* <Image src={"http://thisiame.com"} fill alt="" className="object-contain" /> */}
-          </Link>
-        </motion.div>
+        ></motion.div>
       </div>
     </footer>
   );

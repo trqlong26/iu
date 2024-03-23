@@ -13,7 +13,6 @@ const NewsLetter = () => {
       <div className="flex flex-col h-full items-center justify-center">
         {/* text */}
         <SectionHeader
-          pretitle="Get in touch"
           title="Sign up to our newsletter"
         />
         {/* input */}
@@ -27,7 +26,7 @@ const NewsLetter = () => {
           <input
             type="text"
             placeholder="Email address"
-            className="w-full h-[64px] outline-none rounded-full bg-primary/60 backdrop-blur-[15px] px-8"
+            className="w-full h-[64px] outline-none rounded-full bg-secondary/10 backdrop-blur-[15px] px-8"
           />
           <button
             type="submit"

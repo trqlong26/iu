@@ -47,7 +47,7 @@ const EventBox = ({ events }) => {
                   {/* location */}
                   <div className="w-64 flex flex-col gap-y-2">
                     <div className="text-lg leading-none font-bold">{`${event.location.city}, ${event.location.country}`}</div>
-                    <div className="flex items-center gap-x-1 justify-center">
+                    <div className="flex items-center gap-x-1 justify-center xl:justify-start">
                       <div className="text-accent text-lg">
                         <RiMapPin2Fill />
                       </div>
